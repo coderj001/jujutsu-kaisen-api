@@ -1,4 +1,5 @@
 import fastify from "fastify";
+import { homeController } from "./src/home.controller";
 
 async function bootstrap() {
   // Create Fastify app instance
@@ -9,6 +10,8 @@ async function bootstrap() {
     res.send("[+] Health check successful...");
   });
 
+  app.register(homeController);
+
   // Start the server
   const port = process.env.PORT ?? 3000;
   await app.listen({ port: +port });
@@ -17,6 +20,7 @@ async function bootstrap() {
   ["SIGINT", "SIGTERM"].forEach((signal) => {
     process.on(signal, async () => {
       await app.close();
+      console.log("\n[+] Server Is Closed.");
       process.exit(0);
     });
   });

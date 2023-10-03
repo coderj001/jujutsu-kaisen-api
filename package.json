@@ -6,12 +6,13 @@
     "build": "tsc",
     "lint": "eslint \"src/**/*.ts\" \"main.ts\" --fix",
     "format": "prettier --write \"src/**/*.ts\" \"main.ts\"",
+    "clean": "rm -rf dist",
     "start:dev": "nodemon main.ts",
     "start:prod": "node ./dist/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Raju Ghorai",
   "license": "ISC",
   "dependencies": {
     "fastify": "^4.23.2"
