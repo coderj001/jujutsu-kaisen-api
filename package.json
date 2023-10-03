@@ -1,0 +1,22 @@
+{
+  "name": "jujutsu-kaisen-api",
+  "version": "1.0.0",
+  "description": "Jujutsu Kaisen APIs",
+  "scripts": {
+    "build": "tsc",
+    "start:dev": "nodemon main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.23.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
