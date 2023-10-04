@@ -1,14 +1,12 @@
 {
     "Itadori Yūji": {
-        "species": "Human",
-        "appearance": "Yuji is a young man of average height and appears to have a slender build when wearing baggy clothing, but actually has a lean and muscular physique. He also has relatively large light brown eyes and spiky pink hair (brownish blonde in the manga) that's styled in an undercut fashion. When becoming the vessel for Sukuna after eating his finger, he gains a second pair of eyes that only open when Sukuna controls his body along with his many markings.",
-        "personality": "Yuji is a fair person who truly cares for not only his comrades but anyone he views as people with their own wills, despite how deep or shallow his connection to them is. He highly commends 'the value of life,' and to this end, he will ensure that others receive a 'proper death'. Because of this, he believes that it is morally unethical for him to take another human life, and tries to avoid any possibility of doing so unless as a last resort.",
-        "image": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/6/6f/Yuji_Itadori_%28Anime_2%29.png/revision/latest?cb=20200908071838"
+        "info": {
+            "Birthdate": "March 20, 2003",
+            "Sex": "Male",
+            "Age": "15",
+            "Height": "173 cm (5'8\")",
+            "Weight": "80 kg (176 lb)"
+        }
     },
-    "Megumi Fushiguro": {
-        "species": "Human",
-        "appearance": "Yuji is a young man of average height and appears to have a slender build when wearing baggy clothing, but actually has a lean and muscular physique. He also has relatively large light brown eyes and spiky pink hair (brownish blonde in the manga) that's styled in an undercut fashion. When becoming the vessel for Sukuna after eating his finger, he gains a second pair of eyes that only open when Sukuna controls his body along with his many markings.",
-        "personality": "Yuji is a fair person who truly cares for not only his comrades but anyone he views as people with their own wills, despite how deep or shallow his connection to them is. He highly commends 'the value of life,' and to this end, he will ensure that others receive a 'proper death'. Because of this, he believes that it is morally unethical for him to take another human life, and tries to avoid any possibility of doing so unless as a last resort.",
-        "image": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/6/6f/Yuji_Itadori_%28Anime_2%29.png/revision/latest?cb=20200908071838"
-    }
+    "Megumi Fushiguro": {}
 }
