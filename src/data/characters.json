@@ -1,12 +1,28 @@
-{
-    "Itadori Yūji": {
-        "info": {
-            "Birthdate": "March 20, 2003",
-            "Sex": "Male",
-            "Age": "15",
-            "Height": "173 cm (5'8\")",
-            "Weight": "80 kg (176 lb)"
-        }
-    },
-    "Megumi Fushiguro": {}
-}
+[
+
+][
+{"name": "Masamichi Yaga", "species": "Human", "birthday": null, "gender": "Male", "age": ["47"], "status": "Deceased", "grade": "Grade 1", "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/5/51/Masamichi_Yaga_%28Anime%29.png/revision/latest/scale-to-width-down/347?cb=20201025153339"},
+{"name": "Cursed Spirits", "species": null, "birthday": null, "gender": null, "age": [], "status": null, "grade": null, "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/5/51/Chapter_46_%28Cleaned%29.png/revision/latest/scale-to-width-down/350?cb=20210304002658"},
+{"name": "Tamamo-no-Mae Incarnate", "species": null, "birthday": null, "gender": null, "age": [], "status": "Unknown", "grade": "Special Grade", "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/b/b9/Tamamo-no-Mae_%28Anime%29.png/revision/latest/scale-to-width-down/318?cb=20220924210449"},
+{"name": "Cyrus Veil", "species": "Human", "birthday": null, "gender": "Male", "age": [], "status": "Alive", "grade": null, "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/3/3c/Cyrus_Veil.png/revision/latest/scale-to-width-down/350?cb=20221016162638"},
+{"name": "Shigeru Sonoda", "species": "Human", "birthday": null, "gender": "Male", "age": [], "status": "Deceased", "grade": null, "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/0/07/Shigeru_Sonoda_%28Anime%29.png/revision/latest/scale-to-width-down/350?cb=20230727194023"},
+{"name": "Setsuko Sasaki", "species": "Human", "birthday": null, "gender": "Female", "age": [], "status": "Alive", "grade": null, "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/9/90/Sasaki_%28Anime%29.png/revision/latest/scale-to-width-down/350?cb=20201128035846"},
+{"name": "Ko-Guy", "species": null, "birthday": null, "gender": "Male", "age": [], "status": "Deceased", "grade": "Grade 2", "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/f/f4/Ko-Guy_%28Anime%29.png/revision/latest/scale-to-width-down/350?cb=20230915023411"},
+{"name": "Suguru Geto", "species": "Human", "birthday": "February 3, 1990", "gender": "Male", "age": ["27"], "status": "Deceased", "grade": "Special Grade", "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/c/c2/Suguru_Geto_%28Prequel_Anime%29.png/revision/latest/scale-to-width-down/344?cb=20211104034641"},
+{"name": "Uraume", "species": "Human", "birthday": null, "gender": "Unknown", "age": ["1000+"], "status": "Alive", "grade": null, "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/9/98/Uraume_%28Anime%29.png/revision/latest/scale-to-width-down/330?cb=20230928184843"},
+{"name": "Junpei Yoshino", "species": "Human", "birthday": null, "gender": "Male", "age": ["17"], "status": "Deceased", "grade": null, "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/0/01/Junpei_Yoshino_%28Anime%29.png/revision/latest/scale-to-width-down/337?cb=20201025152028"},
+{"name": "Mahito", "species": null, "birthday": null, "gender": "Male", "age": [], "status": "Absorbed", "grade": "Special Grade", "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/4/4e/Mahito_%28Anime%29.png/revision/latest/scale-to-width-down/350?cb=20201025153259"},
+{"name": "Dhruv Lakdawalla", "species": "Human", "birthday": null, "gender": "Male", "age": ["2000+"], "status": "Deceased", "grade": null, "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/1/16/Dhruv_Lakdawalla.png/revision/latest/scale-to-width-down/350?cb=20220221062845"},
+{"name": "Ui Ui", "species": "Human", "birthday": null, "gender": "Male", "age": [], "status": "Alive", "grade": null, "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/8/88/Ui_Ui_%28Anime%29.png/revision/latest/scale-to-width-down/287?cb=20230911015234"},
+{"name": "Remi", "species": "Human", "birthday": null, "gender": "Female", "age": [], "status": "Alive", "grade": null, "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/7/74/Remi.png/revision/latest/scale-to-width-down/350?cb=20220425151318"},
+{"name": "Hana Kurusu", "species": "Human", "birthday": null, "gender": "Female", "age": ["1000+ (Angel)"], "status": "Alive", "grade": null, "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/d/df/Hana_Kurusu_%28Volume_24%29.png/revision/latest/scale-to-width-down/328?cb=20230919122646"},
+{"name": "Hanyu", "species": "Human", "birthday": null, "gender": "Female", "age": [], "status": "Alive", "grade": null, "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/e/e4/Hanyu.png/revision/latest/scale-to-width-down/278?cb=20220421001632"},
+{"name": "Sorcerer Families", "species": null, "birthday": null, "gender": null, "age": [], "status": null, "grade": null, "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/8/81/Sorcerer_Family_Tree_%28Anime%29.png/revision/latest/scale-to-width-down/350?cb=20210213210647"},
+{"name": "Chojuro Zenin", "species": "Human", "birthday": null, "gender": "Male", "age": [], "status": "Deceased", "grade": null, "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/d/d7/Chojuro_Zenin.png/revision/latest/scale-to-width-down/350?cb=20210531143616"},
+{"name": "Kento Nanami", "species": "Human", "birthday": "July 3, 1990", "gender": "Male", "age": ["27", "28"], "status": "Deceased", "grade": "Grade 1", "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/b/b0/Kento_Nanami_%28Anime%29.png/revision/latest/scale-to-width-down/327?cb=20201025155221"},
+{"name": "Arata Nitta", "species": "Human", "birthday": null, "gender": "Male", "age": ["16"], "status": "Alive", "grade": null, "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/4/4c/Arata_Nitta.png/revision/latest/scale-to-width-down/350?cb=20201019013558"},
+{"name": "Momo Nishimiya", "species": "Human", "birthday": "July 7, 2000", "gender": "Female", "age": ["18"], "status": "Alive", "grade": "Semi-Grade 2", "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/9/98/Momo_Nishimiya_%28Anime%29.png/revision/latest/scale-to-width-down/301?cb=20201219051901"},
+{"name": "Yoshinobu Gakuganji", "species": "Human", "birthday": null, "gender": "Male", "age": ["76"], "status": "Alive", "grade": null, "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/3/3c/Yoshinobu_Gakuganji_%28Anime%29.png/revision/latest/scale-to-width-down/350?cb=20201025154546"},
+{"name": "Yuji Itadori", "species": "Human", "birthday": "March 20, 2003", "gender": "Male", "age": ["15"], "status": "Alive", "grade": null, "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/6/6f/Yuji_Itadori_%28Anime_2%29.png/revision/latest/scale-to-width-down/350?cb=20200908071838"},
+{"name": "Yuta Okkotsu", "species": "Human", "birthday": "March 7th, 2001", "gender": "Male", "age": ["16 ", "17"], "status": "Alive", "grade": "Special Grade", "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/7/79/Yuta_Okkotsu_%28Chapter_137%29.png/revision/latest/scale-to-width-down/344?cb=20210201190010"}
+]
