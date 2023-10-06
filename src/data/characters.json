@@ -1,7 +1,15 @@
 [
-
-][
-{"name": "Masamichi Yaga", "species": "Human", "birthday": null, "gender": "Male", "age": ["47"], "status": "Deceased", "grade": "Grade 1", "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/5/51/Masamichi_Yaga_%28Anime%29.png/revision/latest/scale-to-width-down/347?cb=20201025153339"},
+{
+  "name": "Masamichi Yaga",
+  "species": "Human",
+  "birthday": null,
+  "gender": "Male",
+  "age": ["47"],
+  "status": "Deceased",
+  "grade": "Grade 1",
+  "appearance": null,
+  "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/5/51/Masamichi_Yaga_%28Anime%29.png/revision/latest/scale-to-width-down/347?cb=20201025153339"
+},
 {"name": "Cursed Spirits", "species": null, "birthday": null, "gender": null, "age": [], "status": null, "grade": null, "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/5/51/Chapter_46_%28Cleaned%29.png/revision/latest/scale-to-width-down/350?cb=20210304002658"},
 {"name": "Tamamo-no-Mae Incarnate", "species": null, "birthday": null, "gender": null, "age": [], "status": "Unknown", "grade": "Special Grade", "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/b/b9/Tamamo-no-Mae_%28Anime%29.png/revision/latest/scale-to-width-down/318?cb=20220924210449"},
 {"name": "Cyrus Veil", "species": "Human", "birthday": null, "gender": "Male", "age": [], "status": "Alive", "grade": null, "appearance": null, "image_url": "https://static.wikia.nocookie.net/jujutsu-kaisen/images/3/3c/Cyrus_Veil.png/revision/latest/scale-to-width-down/350?cb=20221016162638"},
