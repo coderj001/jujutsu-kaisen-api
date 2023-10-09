@@ -11,7 +11,7 @@ const cache: {
 
 export class EnService {
   async getAllCharacters(): Promise<Character[]> {
-    if (!cache.getAllCharacters) {
+    if (!cache.getAllCharacters.length) {
       cache.getAllCharacters = rawCharacters;
     }
     return cache.getAllCharacters;

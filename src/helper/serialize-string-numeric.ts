@@ -1,8 +1,16 @@
-export function serializeStringToNumeric(data: string) {
+export function serializeStringToNumeric(data?: string): number | null {
+  if (data === undefined) {
+    return null; // Default value for undefined input
+  }
+
   const numSerialized = parseInt(data);
-  if (numSerialized) {
-    if (numSerialized === 0) return 0;
+
+  if (!isNaN(numSerialized)) {
+    if (numSerialized === 0) {
+      return null;
+    }
     return numSerialized;
   }
-  return 0;
+
+  return null; // Default value for invalid input
 }
