@@ -3,3 +3,8 @@
 ### Test API
 GET {{baseURL}}/health
 Content-Type: application/json
+
+### Characters
+### FindAll
+GET  {{baseURL}}/api/v1/characters
+Content-Type: application/json

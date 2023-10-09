@@ -1,16 +1,18 @@
 import fastify from "fastify";
 import { homeController } from "./src/home.controller";
+import { charactersController } from "./src/characters/characters.controller";
 
 async function bootstrap() {
   // Create Fastify app instance
   const app = fastify({ logger: true });
 
   // Docker health check
-  app.get("/health", (req, res) => {
+  app.get("/health", (_req, res) => {
     res.send("[+] Health check successful...");
   });
 
   app.register(homeController);
+  app.register(charactersController, { prefix: 'api/v1/characters' });
 
   // Start the server
   const port = process.env.PORT ?? 3000;
