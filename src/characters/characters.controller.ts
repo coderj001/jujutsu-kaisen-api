@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { FastifyInstance } from 'fastify';
-import { CharactersService, IQuery } from './characters.service';
-import { serializeStringToNumeric } from '../helper/serialize-string-numeric';
+import { FastifyInstance } from "fastify";
+import { CharactersService, IQuery } from "./characters.service";
+import { serializeStringToNumeric } from "../helper/serialize-string-numeric";
 
 export class CharactersController {
-  constructor(private readonly charactersService: CharactersService) { }
+  constructor(private readonly charactersService: CharactersService) {}
 
   // async findAll({ limit, name, offset, sort }: IQuerystring = {}) {
   async findAll({ limit, offset }: IQuerystring = {}) {
@@ -14,10 +14,9 @@ export class CharactersController {
       limit: limit ? serializeStringToNumeric(limit) : 0,
     };
 
-    const characters = await this.charactersService.findAll(query)
-    return characters
+    const characters = await this.charactersService.findAll(query);
+    return characters;
   }
-
 }
 
 type IQuerystring = {
@@ -28,14 +27,18 @@ type IQuerystring = {
 };
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-export function charactersController(app: FastifyInstance, opts: any, done: any) {
+export function charactersController(
+  app: FastifyInstance,
+  opts: any,
+  done: any,
+) {
   const characters = new CharactersController(new CharactersService());
-  app.get<{ Querystring: IQuerystring }>('/', async (req, res) => {
+  app.get<{ Querystring: IQuerystring }>("/", async (req, res) => {
     const { name, offset, limit, sort } = req.query;
-    console.log(name)
-    console.log(sort)
+    console.log(name);
+    console.log(sort);
     const all = await characters.findAll({ offset, limit });
     res.code(200).send(all);
-  })
-  done()
+  });
+  done();
 }

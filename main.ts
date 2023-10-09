@@ -12,7 +12,7 @@ async function bootstrap() {
   });
 
   app.register(homeController);
-  app.register(charactersController, { prefix: 'api/v1/characters' });
+  app.register(charactersController, { prefix: "api/v1/characters" });
 
   // Start the server
   const port = process.env.PORT ?? 3000;

@@ -1,14 +1,13 @@
 import { Character } from "../characters/characters.entity";
-import { data as rawCharacters } from '../data/characters.json';
+import { data as rawCharacters } from "../data/characters.json";
 
 const cache: {
   getAllCharacters: Character[];
   getAllCharacterById: Character[];
 } = {
   getAllCharacters: [],
-  getAllCharacterById: []
+  getAllCharacterById: [],
 };
-
 
 export class EnService {
   async getAllCharacters(): Promise<Character[]> {
@@ -19,17 +18,19 @@ export class EnService {
   }
 
   async getAllCharacterById(id: number): Promise<Character[]> {
-    const userInCache = cache.getAllCharacterById.find(({ id: _id }) => _id === id,);
+    const userInCache = cache.getAllCharacterById.find(
+      ({ id: _id }) => _id === id,
+    );
     if (userInCache) return [userInCache];
 
-    const all = await this.getAllCharacters()
+    const all = await this.getAllCharacters();
     const user = all.find(({ id: _id }) => _id === id);
 
     if (user) {
-      cache.getAllCharacterById.push(user)
+      cache.getAllCharacterById.push(user);
       return [user];
     }
 
-    return []
+    return [];
   }
 }
