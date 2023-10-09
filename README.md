@@ -1,12 +1,5 @@
 # Jujutsu Kaisen API
 
-<p align="center">
-    <img src="https://ci.appveyor.com/api/projects/status/github/coderj001/jujutsu-kaisen-api?svg=true" alt="Build status: Passing" />
-  <a href="https://github.com/coderj001/jujutsu-kaisen-api/actions" alt="Build status: Passing">
-    <img src="https://github.com/coderj001/jujutsu-kaisen-api/actions/workflows/node.js.yml/badge.svg" alt="Build status: Passing">
-  </a>
-</p>
-
 
 ### Description
 
