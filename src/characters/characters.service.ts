@@ -8,7 +8,7 @@ export type IQuery = {
 
 export class CharactersService {
   // private readonly dataService: EnService = new EnService();
-  constructor(private readonly dataService: EnService = new EnService()) { }
+  constructor(private readonly dataService: EnService = new EnService()) {}
 
   async findAll({ offset, limit }: IQuery = {}): Promise<Character[]> {
     offset = offset ?? 0;
@@ -21,18 +21,14 @@ export class CharactersService {
   }
 
   async findByName(name: string): Promise<Character[]> {
-    const normalizedName = name.split(" ").map((name) =>
-      name
-        .normalize("NFD")
-        .toLowerCase(),
-    );
-    const all = await this.findAll();
+    const normalizedName = name
+      .split(" ")
+      .map((name) => name.normalize("NFD").toLowerCase());
+    const all = await this.findAll({ limit: 200 });
 
     const normalizeNames = all.map(({ name }, id): [number, string] => [
       id,
-      name
-        .normalize("NFD")
-        .toLowerCase(),
+      name.normalize("NFD").toLowerCase(),
     ]);
 
     let exactlyMatchId: number = -1;
@@ -47,7 +43,6 @@ export class CharactersService {
         exactlyMatchId = id;
         break;
       }
-
       const splittedNames = name.split(" ");
 
       normalizedName.forEach((_name) => {
@@ -77,13 +72,21 @@ export class CharactersService {
       exactlyMatchId >= 0
         ? [all[exactlyMatchId]]
         : semiMatch.length
-          ? semiMatch
-          : alternativeMatch;
+        ? semiMatch
+        : alternativeMatch;
 
     if (!find.length) {
       return [];
     }
 
     return find;
+  }
+
+  async findById(id: number): Promise<Character | null> {
+    const character = await this.dataService.getAllCharacterById(id);
+    if (!character.length) {
+      return null;
+    }
+    return character[0];
   }
 }

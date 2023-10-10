@@ -20,6 +20,10 @@ export class CharactersController {
     const characters = await this.charactersService.findAll(query);
     return characters;
   }
+
+  async findOne(index: number) {
+    return await this.charactersService.findById(index);
+  }
 }
 
 type IQuerystring = {
@@ -39,6 +43,13 @@ export function charactersController(
     const { name, offset, limit } = req.query;
     const all = await characters.findAll({ limit, offset, name });
     res.code(200).send(all);
+  });
+  app.get("/:id", async (req, res) => {
+    const { id } = req.params as { id?: string };
+    if (!id) {
+      return res.code(400).send("BadRequest: id is required");
+    }
+    return characters.findOne(+id);
   });
   done();
 }
