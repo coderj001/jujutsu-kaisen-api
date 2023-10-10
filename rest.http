@@ -5,6 +5,12 @@ GET {{baseURL}}/health
 Content-Type: application/json
 
 ### Characters
-### FindAll
-GET  {{baseURL}}/api/v1/characters
+### Find All
+GET  {{baseURL}}/api/v1/characters?limit=10
 Content-Type: application/json
+
+### Find By Name
+GET  {{baseURL}}/api/v1/characters?name=gojo
+
+### Find By Id
+GET  {{baseURL}}/api/v1/characters/2

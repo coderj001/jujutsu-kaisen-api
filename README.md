@@ -25,6 +25,7 @@ pnpm start:prod
 
 ## Paths
 
-|  Path   |   Source   | Method |    Response    | Queries |
-| :-----: | :--------: | :----: | :------------: | :-----: |
-| /api/v1 | characters |  GET   | All characters |  soon   |
+|  Path   |     Source     | Method |       Response       | Queries |
+| :-----: | :------------: | :----: | :------------------: | :-----: |
+| /api/v1 |   characters   |  GET   |    All characters    |  soon   |
+| /api/v1 | characters/:id |  GET   | Only character by id |   --    |

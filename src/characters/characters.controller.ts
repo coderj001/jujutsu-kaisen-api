@@ -4,11 +4,9 @@ import { CharactersService, IQuery } from "./characters.service";
 import { serializeStringToNumeric } from "../helper/serialize-string-numeric";
 
 export class CharactersController {
-  constructor(private readonly charactersService: CharactersService) {}
+  constructor(private readonly charactersService: CharactersService) { }
 
-  // async findAll({ limit, name, offset, sort }: IQuerystring = {}) {
   async findAll({ limit, offset, name }: IQuerystring = {}) {
-    // const isSorted = sort != undefined && sort != null && Boolean(sort);
     if (name) {
       return await this.charactersService.findByName(name);
     }
