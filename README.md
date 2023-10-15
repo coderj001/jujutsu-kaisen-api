@@ -29,3 +29,7 @@ pnpm start:prod
 | :-----: | :------------: | :----: | :------------------: | :-----: |
 | /api/v1 |   characters   |  GET   |    All characters    |  soon   |
 | /api/v1 | characters/:id |  GET   | Only character by id |   --    |
+
+## TODOs
+1. Unit testing
+2. GCP deployed
