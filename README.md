@@ -1,4 +1,5 @@
 # Jujutsu Kaisen API
+> Typescript, Node, Javascript
 
 
 ### Description
